@@ -1,6 +1,7 @@
-from leetcode_problem import twoSum, powerOfTwo
+from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber
 
-# 1.twosum problem
+# 1.two sum problem
+
 # nums = [3,2,4]
 # target = 7
 # s = twoSum.Solution()
@@ -8,7 +9,10 @@ from leetcode_problem import twoSum, powerOfTwo
 
 # 2. power of two problem
 
-n = 3
-s = powerOfTwo.Solution()
-print(s.isPowerOfTwo(n))
+# n = 3
+# s = powerOfTwo.Solution()
+# print(s.isPowerOfTwo(n))
 
+# 3. check perfect number
+s = checkPerfectNumber.Solution()
+print(s.checkPerfectNumber2(99999995))
