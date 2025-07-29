@@ -1,4 +1,4 @@
-from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber
+from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber
 
 # 1.two sum problem
 
@@ -14,5 +14,10 @@ from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber
 # print(s.isPowerOfTwo(n))
 
 # 3. check perfect number
-s = checkPerfectNumber.Solution()
-print(s.checkPerfectNumber2(99999995))
+# s = checkPerfectNumber.Solution()
+# print(s.checkPerfectNumber2(99999995))
+
+# 4.check palindrome number
+x = 121
+s = palindromeNumber.Solution()
+print(s.isPalindrome(x))
