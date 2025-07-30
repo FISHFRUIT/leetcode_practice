@@ -1,4 +1,4 @@
-from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber
+from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger
 
 # 1.two sum problem
 
@@ -18,6 +18,11 @@ from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeN
 # print(s.checkPerfectNumber2(99999995))
 
 # 4.check palindrome number
-x = 121
-s = palindromeNumber.Solution()
-print(s.isPalindrome(x))
+# x = 121
+# s = palindromeNumber.Solution()
+# print(s.isPalindrome(x))
+
+# 5.convert roman to integer 
+target: str = "ILXMV"
+s = romanToInteger.Solution()
+print(s.romanToInt(target))
