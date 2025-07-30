@@ -1,4 +1,4 @@
-from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger
+from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX
 
 # 1.two sum problem
 
@@ -23,6 +23,11 @@ from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeN
 # print(s.isPalindrome(x))
 
 # 5.convert roman to integer 
-target: str = "ILXMV"
-s = romanToInteger.Solution()
-print(s.romanToInt(target))
+# target: str = "ILXMV"
+# s = romanToInteger.Solution()
+# print(s.romanToInt(target))
+
+# 6. find sqrt(x)
+x = 8
+s = sqrtX.Solution()
+print(s.mySqrt(x))
