@@ -1,4 +1,4 @@
-from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX
+from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
 
 # 1.two sum problem
 
@@ -28,6 +28,12 @@ from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeN
 # print(s.romanToInt(target))
 
 # 6. find sqrt(x)
-x = 8
-s = sqrtX.Solution()
-print(s.mySqrt(x))
+# x = 8
+# s = sqrtX.Solution()
+# print(s.mySqrt(x))
+
+# 7. check happy number
+
+n = 19
+s = happyNumber.Solution()
+print(s.isHappy(n))
