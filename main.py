@@ -1,4 +1,5 @@
 from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
+from leetcode_problem import lengthOfLastNumber
 
 # 1.two sum problem
 
@@ -34,6 +35,11 @@ from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeN
 
 # 7. check happy number
 
-n = 19
-s = happyNumber.Solution()
-print(s.isHappy(n))
+# n = 19
+# s = happyNumber.Solution()
+# print(s.isHappy(n))
+
+# 8. check length of last number
+thinh = "aaabbb"
+s = lengthOfLastNumber.Solution()
+print(s.lengthOfLastWord(thinh))
