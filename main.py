@@ -1,5 +1,5 @@
 from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
-from leetcode_problem import lengthOfLastNumber
+from leetcode_problem import lengthOfLastNumber,singleNumber
 
 # 1.two sum problem
 
@@ -40,6 +40,12 @@ from leetcode_problem import lengthOfLastNumber
 # print(s.isHappy(n))
 
 # 8. check length of last number
-thinh = "aaabbb"
-s = lengthOfLastNumber.Solution()
-print(s.lengthOfLastWord(thinh))
+# thinh = "aaabbb"
+# s = lengthOfLastNumber.Solution()
+# print(s.lengthOfLastWord(thinh))
+
+# 9 . single number
+nums = [1,1,1,1,2,3,1,2,3,4]
+s = singleNumber.Solution()
+# print(s.singleNumber(nums))
+print(s.singleNumber2(nums))
