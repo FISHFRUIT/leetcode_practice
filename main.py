@@ -1,5 +1,5 @@
 from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
-from leetcode_problem import lengthOfLastNumber,singleNumber
+from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber
 
 # 1.two sum problem
 
@@ -45,7 +45,12 @@ from leetcode_problem import lengthOfLastNumber,singleNumber
 # print(s.lengthOfLastWord(thinh))
 
 # 9 . single number
-nums = [1,1,1,1,2,3,1,2,3,4]
-s = singleNumber.Solution()
-# print(s.singleNumber(nums))
-print(s.singleNumber2(nums))
+# nums = [1,1,1,1,2,3,1,2,3,4]
+# s = singleNumber.Solution()
+# # print(s.singleNumber(nums))
+# print(s.singleNumber2(nums))
+
+# 10 . Ugly Number
+num = 30
+s = uglyNumber.Solution()
+print(s.isUgly(num))
