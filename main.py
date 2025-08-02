@@ -1,5 +1,5 @@
 from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
-from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree
+from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour
 
 # 1.two sum problem
 
@@ -55,7 +55,12 @@ from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfT
 # s = uglyNumber.Solution()
 # print(s.isUgly(num))
 
-# power of three
-num = 27
-s = powerOfThree.Solution()
-print(s.isPowerOfThree(num))
+# 11.power of three
+# num = 27
+# s = powerOfThree.Solution()
+# print(s.isPowerOfThree(num))
+
+# 12.power of four
+num = 16
+s = powerOfFour.Solution()
+print(s.isPowerOfFour(num))
