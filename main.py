@@ -1,5 +1,5 @@
 from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
-from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour,addDigit
+from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour,addDigit,bestTimeToSell
 
 # 1.two sum problem
 
@@ -66,6 +66,11 @@ from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfT
 # print(s.isPowerOfFour(num))
 
 # 13.add digit
-num = 38
-s = addDigit.Solution()
-print(s.addDigits(num))
+# num = 38
+# s = addDigit.Solution()
+# print(s.addDigits(num))
+
+# 14.best time to sell
+stock = [7,1,3,5,6,2]
+s = bestTimeToSell.Solution()
+print(s.maxProfit(stock))
