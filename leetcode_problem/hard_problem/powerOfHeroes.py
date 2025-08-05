@@ -60,7 +60,7 @@ def power(subset: List[int]) -> int:
 
 #         return SUM    
 
-# Chuẩn leetcode
+# Chuẩn leetcode O(n*2^n)
 class Solution:
     def sumOfPower(self, nums: List[int]) -> int:
         self.total = 0  # Dùng self thay vì global
