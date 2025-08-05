@@ -1,5 +1,5 @@
 from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
-from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour,addDigit,bestTimeToSell
+from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour,addDigit,bestTimeToSell,FizzBuzz
 
 # 1.two sum problem
 
@@ -71,6 +71,11 @@ from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfT
 # print(s.addDigits(num))
 
 # 14.best time to sell
-stock = [7,1,3,5,6,2]
-s = bestTimeToSell.Solution()
-print(s.maxProfit(stock))
+# stock = [7,1,3,5,6,2]
+# s = bestTimeToSell.Solution()
+# print(s.maxProfit(stock))
+
+# 15.Fizz Buzz
+n = 15
+s = FizzBuzz.Solution()
+print(s.fizzBuzz(n))
