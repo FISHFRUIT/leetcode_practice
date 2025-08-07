@@ -1,6 +1,6 @@
 from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
 from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour,addDigit,bestTimeToSell,FizzBuzz
-from leetcode_problem import MaximumProductofThreeNumbers
+from leetcode_problem import MaximumProductofThreeNumbers , addStrings
 # 1.two sum problem
 
 # nums = [3,2,4]
@@ -81,6 +81,12 @@ from leetcode_problem import MaximumProductofThreeNumbers
 # print(s.fizzBuzz(n))
 
 # 16.Maxium ...
-n=[1,5,4,2,3,6,8,112,-12]
-s = MaximumProductofThreeNumbers.Solution()
-print(s.maximumProduct(n))
+# n=[1,5,4,2,3,6,8,112,-12]
+# s = MaximumProductofThreeNumbers.Solution()
+# print(s.maximumProduct(n))
+
+# add strings
+n = "123141123124124321690129319299124"
+a = "12361294178352382"
+s= addStrings.Solution()
+print(s.addStrings(a,n))
