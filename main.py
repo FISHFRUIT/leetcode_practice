@@ -86,7 +86,7 @@ from leetcode_problem import MaximumProductofThreeNumbers , addStrings
 # print(s.maximumProduct(n))
 
 # add strings
-n = "123141123124124321690129319299124"
+n = "123141123124121244578909876543223412424"
 a = "12361294178352382"
 s= addStrings.Solution()
 print(s.addStrings(a,n))
