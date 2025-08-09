@@ -1,6 +1,6 @@
 from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
 from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour,addDigit,bestTimeToSell,FizzBuzz
-from leetcode_problem import MaximumProductofThreeNumbers , addStrings
+from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnumberInArray
 # 1.two sum problem
 
 # nums = [3,2,4]
@@ -85,8 +85,13 @@ from leetcode_problem import MaximumProductofThreeNumbers , addStrings
 # s = MaximumProductofThreeNumbers.Solution()
 # print(s.maximumProduct(n))
 
-# add strings
-n = "123141123124121244578909876543223412424"
-a = "12361294178352382"
-s= addStrings.Solution()
-print(s.addStrings(a,n))
+# 17.add strings
+# n = "123141123124121244578909876543223412424"
+# a = "12361294178352382"
+# s= addStrings.Solution()
+# print(s.addStrings(a,n))
+
+# 18.find number
+input = [1,4,2,5,6,3,214,5,12,3,14,1]
+s = findallnumberInArray.Solution()
+print(s.findDisappearedNumbers(input))
