@@ -1,6 +1,31 @@
 from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeNumber,romanToInteger, sqrtX,happyNumber
 from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour,addDigit,bestTimeToSell,FizzBuzz
-from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnumberInArray,ValidParentheses
+from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnumberInArray,ValidParentheses,SymmetricTree
+from collections import deque
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+def list_to_tree(arr):
+    if not arr:
+        return None
+    root = TreeNode(arr[0])
+    queue = deque([root])
+    i = 1
+    while queue and i < len(arr):
+        node = queue.popleft()
+        if arr[i] is not None:
+            node.left = TreeNode(arr[i])
+            queue.append(node.left)
+        i += 1
+        if i < len(arr) and arr[i] is not None:
+            node.right = TreeNode(arr[i])
+            queue.append(node.right)
+        i += 1
+    return root
 # 1.two sum problem
 
 # nums = [3,2,4]
@@ -97,6 +122,11 @@ from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnu
 # print(s.findDisappearedNumbers(input)) 
 
 # 19.valid ...
-input = "([{}))"
-s = ValidParentheses.Solution()
-print(s.isValid(input))
+# input = "([{}))"
+# s = ValidParentheses.Solution()
+# print(s.isValid(input))
+
+# 20.symmectric
+root = list_to_tree([1,2,2,3,4,4,3])
+s = SymmetricTree.Solution()
+print(s.isSymmetric(root))
