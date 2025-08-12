@@ -127,6 +127,6 @@ def list_to_tree(arr):
 # print(s.isValid(input))
 
 # 20.symmectric
-root = list_to_tree([1,2,2,3,4,4,3])
+root = list_to_tree([1,2,2,3,4,3,4])
 s = SymmetricTree.Solution()
 print(s.isSymmetric(root))
