@@ -2,7 +2,7 @@ from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeN
 from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour,addDigit,bestTimeToSell,FizzBuzz
 from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnumberInArray,ValidParentheses,SymmetricTree
 from collections import deque
-from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray
+from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,FindtheIndexoftheFirstOccurrenceinaString
 
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -138,6 +138,12 @@ from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray
 # print(s.isPerfectSquare(num))
 
 # 22. max product 2
-num = [1,124,15,1,24,12,41,51,3,41,3,135,3]
-s = maxproductoftwonumberinarray.Solution()
-print(s.maxProduct(num))
+# num = [1,124,15,1,24,12,41,51,3,41,3,135,3]
+# s = maxproductoftwonumberinarray.Solution()
+# print(s.maxProduct(num))
+
+# 23. find...
+haystack = "hellollolploplopplopl"
+needle = "lopp"
+s = FindtheIndexoftheFirstOccurrenceinaString.Solution()
+print(s.strStr(haystack,needle))
