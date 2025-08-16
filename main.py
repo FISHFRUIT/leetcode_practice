@@ -143,7 +143,7 @@ from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,Fin
 # print(s.maxProduct(num))
 
 # 23. find...
-haystack = "hellollolploplopplopl"
+haystack = "hellollolploplopl"
 needle = "lopp"
 s = FindtheIndexoftheFirstOccurrenceinaString.Solution()
 print(s.strStr(haystack,needle))
