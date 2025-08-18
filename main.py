@@ -149,7 +149,7 @@ from leetcode_problem import SearchInsertPosition
 # print(s.strStr(haystack,needle))
 
 # 24.search index
-nums=[1,3,4,5,6,7,34,100]
+nums=[1,3,4,5,6,100]
 target = 13
 s = SearchInsertPosition.Solution()
 print(s.searchInsert(nums,target))
