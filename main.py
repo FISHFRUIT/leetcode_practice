@@ -3,7 +3,7 @@ from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfT
 from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnumberInArray,ValidParentheses,SymmetricTree
 from collections import deque
 from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,FindtheIndexoftheFirstOccurrenceinaString
-from leetcode_problem import SearchInsertPosition
+from leetcode_problem import SearchInsertPosition,containdup
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -149,7 +149,12 @@ from leetcode_problem import SearchInsertPosition
 # print(s.strStr(haystack,needle))
 
 # 24.search index
-nums=[1,3,4,5,6,100]
-target = 13
-s = SearchInsertPosition.Solution()
-print(s.searchInsert(nums,target))
+# nums=[1,3,4,5,6,100]
+# target = 13
+# s = SearchInsertPosition.Solution()
+# print(s.searchInsert(nums,target))
+
+# 25.contain dup
+nums = [1,2,31,3,4,1,3,1,31,4]
+s = containdup.Solution()
+print(s.containsDuplicate(nums))
