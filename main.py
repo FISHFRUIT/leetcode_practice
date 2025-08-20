@@ -155,6 +155,6 @@ from leetcode_problem import SearchInsertPosition,containdup
 # print(s.searchInsert(nums,target))
 
 # 25.contain dup
-nums = [1,2,31,3,4,1,3,1,31,4]
+nums = [1,2,31,3,4,13,3121,5]
 s = containdup.Solution()
 print(s.containsDuplicate(nums))
