@@ -3,7 +3,7 @@ from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfT
 from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnumberInArray,ValidParentheses,SymmetricTree
 from collections import deque
 from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,FindtheIndexoftheFirstOccurrenceinaString
-from leetcode_problem import SearchInsertPosition,containdup
+from leetcode_problem import SearchInsertPosition,containdup,validArangam
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -155,6 +155,12 @@ from leetcode_problem import SearchInsertPosition,containdup
 # print(s.searchInsert(nums,target))
 
 # 25.contain dup
-nums = [1,2,31,3,4,13,3121,5]
-s = containdup.Solution()
-print(s.containsDuplicate(nums))
+# nums = [1,2,31,3,4,13,3121,5]
+# s = containdup.Solution()
+# print(s.containsDuplicate(nums))
+
+# 26.valid anagram
+yas = "ansdfaw"
+t = "nadfaws"
+s = validArangam.Solution()
+print(s.isAnagram(yas,t))
