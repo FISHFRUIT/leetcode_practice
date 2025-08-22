@@ -160,7 +160,7 @@ from leetcode_problem import SearchInsertPosition,containdup,validArangam
 # print(s.containsDuplicate(nums))
 
 # 26.valid anagram
-yas = "ansdfaw"
+yas = "a12314dfaw"
 t = "nadfaws"
 s = validArangam.Solution()
 print(s.isAnagram(yas,t))
