@@ -161,6 +161,6 @@ from leetcode_problem import SearchInsertPosition,containdup,validArangam
 
 # 26.valid anagram
 yas = "a12314dfaw"
-t = "nadfaws"
+t = "nad1234faws"
 s = validArangam.Solution()
 print(s.isAnagram(yas,t))
