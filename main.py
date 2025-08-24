@@ -169,4 +169,4 @@ from leetcode_problem import SearchInsertPosition,containdup,validArangam,IsSubs
 l = "aaaaba"
 t = "bbbbaaaaba"
 s = IsSubsequence.Solution()
-print(s.isSubsequence(l,t))
+print(s.isSubsequence2(l,t))
