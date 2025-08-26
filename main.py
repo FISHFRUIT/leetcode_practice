@@ -172,6 +172,7 @@ from leetcode_problem import SearchInsertPosition,containdup,validArangam,IsSubs
 # print(s.isSubsequence2(l,t))
 
 # 28.longest.medium
-gice = "abcabcbb"
-s = longetsubstring.Solution()
-print(s.lengthOfLongestSubstring(gice))
+# gice = "abcabcbb"
+# s = longetsubstring.Solution()
+# print(s.lengthOfLongestSubstring(gice))
+

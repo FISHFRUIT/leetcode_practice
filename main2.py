@@ -1,5 +1,10 @@
-from leetcode_problem.hard_problem import powerOfHeroes
+from leetcode_problem.hard_problem import powerOfHeroes,ReverseInteger
 
-solution = powerOfHeroes.Solution()
-nums = [1,1,1]
-solution.sumOfPower(nums)
+# solution = powerOfHeroes.Solution()
+# nums = [1,1,1]
+# solution.sumOfPower(nums)
+
+# 2
+x = -1243
+s = ReverseInteger.Solution()
+print(s.reverse(x))
