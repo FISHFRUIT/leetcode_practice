@@ -1,4 +1,5 @@
-from leetcode_problem.hard_problem import powerOfHeroes,ReverseInteger
+from leetcode_problem.hard_problem import powerOfHeroes
+from leetcode_problem.medium_problem import ReverseInteger
 
 # solution = powerOfHeroes.Solution()
 # nums = [1,1,1]
