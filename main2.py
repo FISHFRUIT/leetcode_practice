@@ -5,6 +5,6 @@ from leetcode_problem.hard_problem import powerOfHeroes,ReverseInteger
 # solution.sumOfPower(nums)
 
 # 2
-x = -1243
+x = -1243087
 s = ReverseInteger.Solution()
 print(s.reverse(x))
