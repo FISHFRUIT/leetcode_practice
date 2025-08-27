@@ -3,7 +3,7 @@ from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfT
 from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnumberInArray,ValidParentheses,SymmetricTree
 from collections import deque
 from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,FindtheIndexoftheFirstOccurrenceinaString
-from leetcode_problem import SearchInsertPosition,containdup,validArangam,IsSubsequence
+from leetcode_problem import SearchInsertPosition,containdup,validArangam,IsSubsequence, MultiplyStrings
 from leetcode_problem.medium_problem import longetSubstring
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -177,3 +177,8 @@ from leetcode_problem.medium_problem import longetSubstring
 # s = longetsubstring.Solution()
 # print(s.lengthOfLongestSubstring(gice))
 
+# 29.muilti
+a = "124"
+b = "14214"
+s = MultiplyStrings.Solution()
+print(s.multiply(a,b))
