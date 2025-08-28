@@ -4,7 +4,7 @@ from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnu
 from collections import deque
 from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,FindtheIndexoftheFirstOccurrenceinaString
 from leetcode_problem import SearchInsertPosition,containdup,validArangam,IsSubsequence, MultiplyStrings
-from leetcode_problem.medium_problem import longetSubstring
+from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -178,7 +178,13 @@ from leetcode_problem.medium_problem import longetSubstring
 # print(s.lengthOfLongestSubstring(gice))
 
 # 29.muilti
-a = "124"
-b = "14214"
-s = MultiplyStrings.Solution()
-print(s.multiply(a,b))
+# a = "124"
+# b = "14214"
+# s = MultiplyStrings.Solution()
+# print(s.multiply(a,b))
+
+# 30.divine 2 int
+a = 1241245621
+b = 247
+s = DivideTwoIntegers.Solution()
+print(s.divide(a,b))
