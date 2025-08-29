@@ -3,7 +3,7 @@ from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfT
 from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnumberInArray,ValidParentheses,SymmetricTree
 from collections import deque
 from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,FindtheIndexoftheFirstOccurrenceinaString
-from leetcode_problem import SearchInsertPosition,containdup,validArangam,IsSubsequence, MultiplyStrings
+from leetcode_problem import SearchInsertPosition,containdup,validArangam,IsSubsequence, MultiplyStrings,removeElemental
 from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -184,7 +184,13 @@ from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
 # print(s.multiply(a,b))
 
 # 30.divine 2 int
-a = 1241245621
-b = 247
-s = DivideTwoIntegers.Solution()
-print(s.divide(a,b))
+# a = 1241245621
+# b = 247
+# s = DivideTwoIntegers.Solution()
+# print(s.divide(a,b))
+
+# 32.remove elemental
+nums = [1,14,1,5,1,234,1,412,3,12,31,41,45,1]
+val = 1
+s = removeElemental.Solution()
+print(s.removeElement(nums,val))
