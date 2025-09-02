@@ -190,7 +190,7 @@ from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
 # print(s.divide(a,b))
 
 # 32.remove elemental
-nums = [1,14,1,5,1,234,1,412,3,12,1,292025,45,1]
+nums = [1,14,1,5,1,234,1,412,3,12,1,292025,45,142]
 val = 1
 s = removeElemental.Solution()
 print(s.removeElement(nums,val))
