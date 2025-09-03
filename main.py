@@ -2,7 +2,7 @@ from leetcode_problem import twoSum, powerOfTwo, checkPerfectNumber, palindromeN
 from leetcode_problem import lengthOfLastNumber,singleNumber,uglyNumber,powerOfThree,powerOfFour,addDigit,bestTimeToSell,FizzBuzz
 from leetcode_problem import MaximumProductofThreeNumbers , addStrings,findallnumberInArray,ValidParentheses,SymmetricTree
 from collections import deque
-from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,FindtheIndexoftheFirstOccurrenceinaString
+from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,FindtheIndexoftheFirstOccurrenceinaString,plusOne
 from leetcode_problem import SearchInsertPosition,containdup,validArangam,IsSubsequence, MultiplyStrings,removeElemental
 from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
 # class TreeNode:
@@ -190,7 +190,12 @@ from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
 # print(s.divide(a,b))
 
 # 32.remove elemental
-nums = [1,14,1,5,1,234,1,412,3,12,1,292025,45,142]
-val = 1
-s = removeElemental.Solution()
-print(s.removeElement(nums,val))
+# nums = [1,14,1,5,1,234,1,412,3,12,1,292025,45,142]
+# val = 1
+# s = removeElemental.Solution()
+# print(s.removeElement(nums,val))
+
+# 33.plus one
+numinlist = [1,2,4,5,6]
+s = plusOne.Solution()
+print(s.plusOne(numinlist))
