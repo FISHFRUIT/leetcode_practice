@@ -198,4 +198,4 @@ from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
 # 33.plus one
 numinlist = [1,2,4,5,6]
 s = plusOne.Solution()
-print(s.plusOne(numinlist))
+print(s.plusOne2(numinlist))
