@@ -196,6 +196,6 @@ from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
 # print(s.removeElement(nums,val))
 
 # 33.plus one
-numinlist = [1,2,4,5,6]
+numinlist = [1,2,3,5,4,5,6]
 s = plusOne.Solution()
 print(s.plusOne2(numinlist))
