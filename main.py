@@ -5,6 +5,7 @@ from collections import deque
 from leetcode_problem import ValidPerfectSquare,maxproductoftwonumberinarray,FindtheIndexoftheFirstOccurrenceinaString,plusOne
 from leetcode_problem import SearchInsertPosition,containdup,validArangam,IsSubsequence, MultiplyStrings,removeElemental
 from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
+from leetcode_problem import missingNumber
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -196,6 +197,11 @@ from leetcode_problem.medium_problem import longetSubstring,DivideTwoIntegers
 # print(s.removeElement(nums,val))
 
 # 33.plus one
-numinlist = [1,2,3,5,4,5,6]
-s = plusOne.Solution()
-print(s.plusOne2(numinlist))
+# numinlist = [1,2,3,5,4,5,6]
+# s = plusOne.Solution()
+# print(s.plusOne2(numinlist))
+
+#34.missing number
+nums = [0,1,2,3,4,5,7,8,9]
+s = missingNumber.Solution()
+print(s.missingNumber(nums))
