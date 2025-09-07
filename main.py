@@ -202,6 +202,6 @@ from leetcode_problem import missingNumber
 # print(s.plusOne2(numinlist))
 
 #34.missing number
-nums = [0,1,2,3,4,5,7,8,9]
+nums = [0,1,2,3,4,5,7,8]
 s = missingNumber.Solution()
 print(s.missingNumber(nums))
