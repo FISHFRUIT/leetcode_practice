@@ -9,3 +9,4 @@ from leetcode_problem.medium_problem import ReverseInteger
 x = -1243087
 s = ReverseInteger.Solution()
 print(s.reverse(x))
+print('check')
