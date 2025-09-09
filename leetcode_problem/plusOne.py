@@ -12,3 +12,5 @@ class Solution:
         
         num += 1
         return [int(x) for x in str(num)]
+
+print("check")
